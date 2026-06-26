@@ -1,0 +1,7 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  transpilePackages: ['@tensorflow/tfjs', '@tensorflow-models/pose-detection'],
+};
+
+module.exports = nextConfig;
